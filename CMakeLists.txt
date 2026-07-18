@@ -29,7 +29,7 @@ endif()
 
 set(major "3")
 set(minor "0")
-set(patch "17")
+set(patch "18")
 
 set(FRAMEWORK_VERSION ${major}.${minor}.${patch})
 add_definitions(-DFRAMEWORK_VERSION="${FRAMEWORK_VERSION}")
@@ -202,7 +202,6 @@ copy_server(tarsproperty)
 
 add_custom_target(cp
         DEPENDS cp-tarsAdminRegistry cp-tarsnotify cp-tarsstat cp-tarsnode cp-tarspatch cp-tarsquerystat cp-tarsqueryproperty cp-tarsregistry cp-tarslog cp-tarsproperty)
-
 
 
 

@@ -1,3 +1,17 @@
+#v3.0.18 20260718
+
+### en
+- update tarscpp
+- fix: force link mysql with static library
+- fix: update patch command
+- fix: use tc_port::exec instead of system on Windows
+
+### cn
+- 更新 tarscpp
+- 修复: 强制静态链接 mysql
+- 修复: 更新发布命令逻辑
+- 修复: Windows 下使用 tc_port::exec 替代 system
+
 #v3.0.17 20240202
 
 ### en
